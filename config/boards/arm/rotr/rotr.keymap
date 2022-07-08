@@ -26,8 +26,8 @@
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+			bindings = <&kp LCTRL &lt 4 SPACE &kp LCMD>;
+			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
 		three {
 			//PREV | PLAY/PAUSE | NEXT
