@@ -27,7 +27,7 @@
 		two {
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
-			sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 		};
 		three {
 			//PREV | PLAY/PAUSE | NEXT
