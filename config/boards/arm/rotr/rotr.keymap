@@ -32,7 +32,7 @@
 		three {
 			//PREV | PLAY/PAUSE | NEXT
 			bindings = <&kp C_MUTE &lt 4 F13 &kp C_PP>;
-			sensor-bindings = <&inc_dec_kp C_AC_REDO C_AC_UNDO>;
+			sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
 		};
 		shift {
 			//PREV | PLAY/PAUSE | NEXT
